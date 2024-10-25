@@ -5,9 +5,12 @@ Our team composed of myself, Gianluca Procopio, Filippo Parlanti and Himel Ghosh
 The challenge consisted of solving a real-life problem. We were given 3 datasets: one for job vacancies, one for applicants, and one to join 5 different applicants to each job vacancy. Obviously, for each job only one candidate could be chosen while the same candidate could be chosen for multiple jobs.
 
 Essentially, this was a classification problem that required a lot of preprocessing of the given datasets in order to obtain a final version to train our model on. We took advantages of similarities to try to figure out how similar a candidate was to a certain job position, such that for each couple Job-Candidate our model will produce a certain probability, and then for each job position we will set to 1 the candidate with the highest probability (i.e., the chosen one) and to 0 all the others.
+<div align="center">
+    <img src="https://github.com/bergio13/sus2024-hackathon/blob/main/imgs/model_acc.jpg" style="width: 40%;" alt="Prize" />
+</div>
 
 <div align="center">
-    <img src="https://github.com/bergio13/sus2024-hackathon/blob/main/prize.jpg" style="width: 50%;" alt="Prize" />
+    <img src="https://github.com/bergio13/sus2024-hackathon/blob/main/imgs/prize.jpg" style="width: 40%;" alt="Prize" />
 </div>
 
 ---
