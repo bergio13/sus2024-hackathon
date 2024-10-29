@@ -6,6 +6,8 @@ The challenge consisted of solving a real-life problem. We were given 3 datasets
 
 Essentially, this was a classification problem that required a lot of preprocessing of the given datasets in order to obtain a final version to train our model on. We took advantages of similarities to try to figure out how similar a candidate was to a certain job position, such that for each couple Job-Candidate our model will produce a certain probability, and then for each job position we will set to 1 the candidate with the highest probability (i.e., the chosen one) and to 0 all the others.
 
+On the test set we obtained an accuracy of 76%, scoring 2nd place in the leaderboard and winning the "Best objective prediction" prize as our solution striked the best balance between computational complexity and results.
+
 ## Model Architecture and Results
 
 **Total Parameters**: 9,729 (38.00 KB)  
